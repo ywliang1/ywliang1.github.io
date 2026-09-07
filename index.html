@@ -52,12 +52,12 @@
   <!-- Header -->
   <h1>Yiwei (David) Liang</h1>
   <div class="subtitle">
-    Sophomore @ MIT, Biology, Chemistry, & AI<br />
-    Email / 
+    Junior @ MIT, Biology, Chemistry, & AI<br />
+    Email /
     <a href="mailto:liangyw@mit.edu">liangyw@mit.edu</a> ·
     <a href="https://www.linkedin.com/in/yiwei-liang-9989551bb/">LinkedIn</a> ·
     <a href="Yiwei Liang_CV.pdf">CV</a> ·
-    <a href="https://scholar.google.com/">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user=IiL8y3EAAAAJ&hl=en">Google Scholar</a>
   </div>
 
   <!-- About / intro -->
@@ -67,8 +67,35 @@
       I am currently an undergraduate researcher in the Sellers Lab at the Broad
       Institute, where I work on regulated CRISPR–Cas9 systems and in vivo tumor
       microenvironment screens. My interests include ML for medicine, drug
-      discovery, and cancer therapy. 
+      discovery, and cancer therapy.
     </p>
+  </div>
+
+  <!-- Publications section -->
+  <div class="section">
+    <h2>Publications</h2>
+
+    <div class="paper">
+      <div class="paper-title">ProtQueSt: Query-Conditioned Retrieval-Augmented Generation for Protein Function Annotation</div>
+      <div class="paper-meta">
+        L. Ma*, <strong>Y. Liang*</strong>, Y. Yu**, C. J. Qi** (* co-first authors) · May 2026<br />
+        The 2026 Workshop on Generative and Agentic AI for Biology, ICML 2026 · <em>Spotlight paper</em>
+      </div>
+      <div class="paper-desc">
+        A query-conditioned retrieval-augmented generation framework that fuses structure-aware and evolutionary protein embeddings to retrieve relevant proteins and guide LLM-based function annotation, with particular strength on structure-dependent tasks such as catalytic activity and domain motifs.
+      </div>
+    </div>
+
+    <div class="paper">
+      <div class="paper-title">OncRef: A Pan-Cancer PRISM Reference of Cancer Therapeutics</div>
+      <div class="paper-meta">
+        M. G. Rees, M. J. Emmett, …, <strong>Y. Liang</strong>, …, J. A. Roth, W. R. Sellers (11 of 24 authors) · May 2026<br />
+        In review at <em>Cell</em>
+      </div>
+      <div class="paper-desc">
+        OncRef is a pan-cancer pharmacological reference built by screening 265 clinically relevant agents, including small molecules, protein degraders, and biologics, against the PRISM collection of 891 barcoded, deeply characterized cancer cell lines spanning 29 lineages. Most inhibitors produced effects consistent with genetic inactivation of their annotated targets, and the strength of these associations frequently tracked with differential clinical trial outcomes. The study also introduces a framework for quantifying specificity, selectivity, on-target polypharmacology, and non-target effects, revealing unintended targets and mediators of toxicity, and establishes a scalable benchmark for evaluating new oncology targets and modalities.
+      </div>
+    </div>
   </div>
 
   <!-- Research section -->
@@ -78,41 +105,23 @@
     <div class="paper">
       <div class="paper-title">Cancer Genomics Research</div>
       <div class="paper-meta">
-        Sellers Lab, Broad Institute of MIT and Harvard · Sep 2024 – Present<br />
+        William Sellers Lab, Broad Institute of MIT and Harvard · Sep 2024 – Present<br />
         Mentor: Matthew J. Emmett, M.D., Ph.D.
-      </div>
-      <div class="paper-desc">
-        Research on <em>in vivo</em> cancer dependencies utilizing a Cas9/Anti-CRISPR switch in the tumor microenvironment. Poster to be presented at 2025 Broad Institute Cancer Program Retreat.
       </div>
     </div>
 
     <div class="paper">
       <div class="paper-title">Cancer Immunotherapy Research</div>
       <div class="paper-meta">
-        Gabr Lab, Weill Cornell Medicine · May 2022 – Aug 2023
-      </div>
-      <div class="paper-desc">
-        Identified and validated a small-molecule TIGIT inhibitor for immune checkpoint therapy: performed virtual screening and confirmed binding/activity via cell-free and cell-based assays.
+        Moustafa Gabr Lab, Weill Cornell Medicine · May 2022 – Aug 2023<br />
+        Mentor: Moustafa T. Gabr, Ph.D.
       </div>
     </div>
   </div>
-  
-    <!-- Projects section -->
+
+  <!-- Projects section -->
   <div class="section">
     <h2>Projects</h2>
-
-    <div class="paper">
-      <div class="paper-title">
-        <a href="https://github.com/winstonqian/SAPER">SAPER: Structure-Aware Prompt-Enhanced RAPM Framework</a>
-      </div>
-      <div class="paper-meta">
-        Nov 2025 – Dec 2025 ·
-        <a href="https://github.com/winstonqian/SAPER">GitHub</a>
-      </div>
-      <div class="paper-desc">
-        Developed a novel protein function annotation framework that combines 3D structural information with sequence-based methods, achieving up to 114% performance improvement on Meta-BLEU-2. Designed multi-modal fusion algorithms (Weighted Similarity and Reciprocal Rank Fusion) to integrate structure-aware ProstT5 and evolutionary ESM-2 embeddings for robust protein retrieval. Engineered hierarchical prompt templates with task-specific biological terminology guidance, demonstrating that retrieval quality and prompt design are equally crucial for LLM performance. Built scalable Python infrastructure leveraging FAISS indexing, transformer models, and automated benchmarking across multiple tasks. Validated approach on the rigorous Prot-Inst-OOD dataset, showing particular strength in structure-dependent tasks like catalytic activity and domain motif.
-      </div>
-    </div>
 
     <div class="paper">
       <div class="paper-title">
@@ -126,7 +135,16 @@
         Investigated how representation choice affects neural reasoning efficiency in Transformers by multilingual mathematical benchmarks. Built a comprehensive evaluation framework testing SOTA models and 8B-parameter open-source models on GSM8K and MMATH across multiple languages. Discovered that well-trained models achieve representation-invariant reasoning, and when tokenizers align with denser representations, 510% token efficiency gains can be achieved. Demonstrated that representation bottlenecks stem from training distribution rather than architecture by reducing English-Chinese performance gap through LoRA fine-tuning. Developed modular Python infrastructure featuring multitokenizer analysis pipeline and automated evaluation across API and local models.
       </div>
     </div>
+  </div>
 
+  <!-- Other interests section -->
+  <div class="section">
+    <h2>Other Interests</h2>
+    <p>
+      Outside the lab, I love exploring food, listening to music (mostly Chinese pop), and following fashion.
+      If you're ever in Boston looking for somewhere to eat, take a look at
+      <a href="https://docs.google.com/document/d/1ftDQcHLoRTrW7jaQzQ9Ikwa-zqzvZy8rl6GJ5rb0tDE/edit?usp=sharing">my Boston food guide</a>.
+    </p>
   </div>
 
 </body>
